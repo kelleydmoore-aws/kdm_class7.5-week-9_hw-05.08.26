@@ -61,5 +61,29 @@ Create a Managed Instance Group (MIG) within the Google Cloud Platform (GCP) Con
 
 ### Steps:
 
+#### Create Instance Template:
+
 1. &ensp; In the search bar, navigate to Compute Engine.
+
+2. &ensp; Within the left bumper in the Compute Engine screen, click on Instance Templates.
+
+3. &ensp; Give the Instance Template a name in the Name field.
+
+4. &ensp; Click within the Region dropdown field to select the region you wish to create the template in.
+
+5. &ensp; In the Firewall section, select Allow HTTP traffic.
+
+6. &ensp; Next, in the Advanced Options section, click on Networking.
+
+7. &ensp; Ensure that in the Network tags section it has the http-server tag.
+
+8. &ensp; Next click Network interface and ensure that default is selected in the dropdown.
+
+9. &ensp; In the Management section, go to the Automation field and paste the contents of your metadata.sh script file into it.
+
+10. &ensp; Once done with the previous steps, click Create to finish.
+
+
+
+
 
