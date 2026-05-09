@@ -4,15 +4,15 @@
 
 ### Load balancers:
 
-1)	How does load balancing contribute to Fault tolerance? What about high availability?
+1. &ensp; How does load balancing contribute to Fault tolerance? What about high availability?
 
-2)	Do global load balancers decrease latency for end users? Why or why not?
+2. &ensp; Do global load balancers decrease latency for end users? Why or why not?
 
-3)	What are LB health checks for? Do we always need them? Is a LB different from a reverse proxy? 
+3. &ensp; What are LB health checks for? Do we always need them? Is a LB different from a reverse proxy? 
 
-4)	What are LB routing rules and URL maps for? Give an example or two of them in use. 
+4. &ensp; What are LB routing rules and URL maps for? Give an example or two of them in use. 
 
-5)	Explain what an anycast IP address is used for in the context of a global load balancer. 
+5. &ensp; Explain what an anycast IP address is used for in the context of a global load balancer. 
 
 	
 ### Cloud Armor:
