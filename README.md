@@ -56,12 +56,11 @@ Create a Managed Instance Group (MIG) within the Google Cloud Platform (GCP) Con
 
 	a. &ensp; An Instance Template
 	
-	b. &ensp; Specific IAM permissions
-	
+	b. &ensp; Specific IAM permissions	
 
 ### Steps:
 
-#### Create Instance Template:
+#### Creating Instance Template:
 
 1. &ensp; In the search bar, navigate to Compute Engine.
 
@@ -82,6 +81,34 @@ Create a Managed Instance Group (MIG) within the Google Cloud Platform (GCP) Con
 9. &ensp; In the Management section, go to the Automation field and paste the contents of your metadata.sh script file into it.
 
 10. &ensp; Once done with the previous steps, click Create to finish.
+
+#### Creating the VM Instance:
+
+1. &ensp; Within the left bumper in the Compute Engine screen, click on VM Instances then Create instance.
+
+2. &ensp; In the Create an instance screen, at the top of the screen, click on Create VM from... then click Instance Template.
+
+3. &ensp; Select the name of the Instance Template you just created in the previous step then click Create at the bottom of the screen.
+
+4. &ensp; Wait until it is finished being built.
+
+5. &ensp; Next, verify that it was created successfully by attempting to SSH into it.
+
+6. &ensp; Under the connect tab of the new instance, click SSH. A new SSH browser window should launch. You may need to click Authorize to proceed with the connection.
+
+7. &ensp; If it successfully connects through SSH, then the instance is up and running.
+
+8. &ensp; Next, verify if the networking is set up correctly by pinging 8.8.8.8.
+
+9. &ensp; If you get a response back, then the instance is functioning as intended.
+
+10. &ensp; Next, verify that the external IP can be reached.
+
+11. &ensp; Under the External IP tab, click on the IP address that is there.
+
+12. &ensp; A new browser tab should launch and connect to a custom page based on the contents of your metadata.sh file.
+
+13. &ensp; If this is successful, you now have a fully functioning VM instance created using and Instance Template.
 
 
 
