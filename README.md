@@ -17,29 +17,29 @@
 	
 ### Cloud Armor:
 
--	What does cloud armor offer?
+1)	What does cloud armor offer?
  
--	Why is it used in the first place?
+2)	Why is it used in the first place?
 
--	What layer in the OSI model does it operate at? Why is this important and how is this firewall different from VPC firewall rules?
+3)	What layer in the OSI model does it operate at? Why is this important and how is this firewall different from VPC firewall rules?
  
--	What are rate based rules for?
+4)	What are rate based rules for?
  
--	What is reCAPTCHA and how does it relate to this service? 
+5)	What is reCAPTCHA and how does it relate to this service? 
 
 ### Cloud CDN:
 
--	What are POPs used for?
+1)	What are POPs used for?
 
--	What kind of files are served with Cloud CDN?
+2)	What kind of files are served with Cloud CDN?
  
--	What services can be used with cloud CDN for the source of content (the origin)?
+3)	What services can be used with cloud CDN for the source of content (the origin)?
 
--	Does Cloud CDN help protect against any types of malicious actors or cyberattacks? Explain.
+4)	Does Cloud CDN help protect against any types of malicious actors or cyberattacks? Explain.
 
--	Should an enterprise always use cloud CDN? Why or why not?
+5)	Should an enterprise always use cloud CDN? Why or why not?
 
--	What is TTL and how does it control content “freshness”?
+6)	What is TTL and how does it control content “freshness”?
 
 
 ## Runbook:
@@ -48,22 +48,22 @@
 
 ### Goal:
 
--	Create a Managed Instance Group (MIG) within the Google Cloud Platform (GCP) Console (ClickOps)
+Create a Managed Instance Group (MIG) within the Google Cloud Platform (GCP) Console (ClickOps)
 
 ### Prerequisites:
 
--	An active GCP project to build in.
+1)	An active GCP project to build in.
 
--	A Command Line Interface (CLI) configured to use GCP. It does not matter which one is used, only that it is correctly configured to create GCP projects in.
+2)	A Command Line Interface (CLI) configured to use GCP. It does not matter which one is used, only that it is correctly configured to create GCP projects in.
 
--	GCP resources:
+3)	GCP resources:
 
-	-	An Instance Template
+	a)	An Instance Template
 	
-	-	Specific IAM permissions
+	b)	Specific IAM permissions
 	
 
 ### Steps:
 
--	In the search bar, navigate to Compute Engine.
+1)	In the search bar, navigate to Compute Engine.
 
