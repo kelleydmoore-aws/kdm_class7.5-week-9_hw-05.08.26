@@ -14,37 +14,33 @@
 
 5. &ensp; Explain what an anycast IP address is used for in the context of a global load balancer. 
 
-	
 ### Cloud Armor:
 
-1)	What does cloud armor offer?
+1. &ensp; What does cloud armor offer?
  
-2)	Why is it used in the first place?
+2. &ensp; Why is it used in the first place?
 
-3)	What layer in the OSI model does it operate at? Why is this important and how is this firewall different from VPC firewall rules?
+3. &ensp; What layer in the OSI model does it operate at? Why is this important and how is this firewall different from VPC firewall rules?
  
-4)	What are rate based rules for?
+4. &ensp; What are rate based rules for?
  
-5)	What is reCAPTCHA and how does it relate to this service? 
+5. &ensp; What is reCAPTCHA and how does it relate to this service? 
 
 ### Cloud CDN:
 
-1)	What are POPs used for?
+1. &ensp; What are POPs used for?
 
-2)	What kind of files are served with Cloud CDN?
+2. &ensp; What kind of files are served with Cloud CDN?
  
-3)	What services can be used with cloud CDN for the source of content (the origin)?
+3. &ensp; What services can be used with cloud CDN for the source of content (the origin)?
 
-4)	Does Cloud CDN help protect against any types of malicious actors or cyberattacks? Explain.
+4. &ensp; Does Cloud CDN help protect against any types of malicious actors or cyberattacks? Explain.
 
-5)	Should an enterprise always use cloud CDN? Why or why not?
+5. &ensp; Should an enterprise always use cloud CDN? Why or why not?
 
-6)	What is TTL and how does it control content “freshness”?
-
+6. &ensp; What is TTL and how does it control content “freshness”?
 
 ## Runbook:
-
-
 
 ### Goal:
 
@@ -52,18 +48,18 @@ Create a Managed Instance Group (MIG) within the Google Cloud Platform (GCP) Con
 
 ### Prerequisites:
 
-1)	An active GCP project to build in.
+1. &ensp; An active GCP project to build in.
 
-2)	A Command Line Interface (CLI) configured to use GCP. It does not matter which one is used, only that it is correctly configured to create GCP projects in.
+2. &ensp; A Command Line Interface (CLI) configured to use GCP. It does not matter which one is used, only that it is correctly configured to create GCP projects in.
 
-3)	GCP resources:
+3. &ensp; GCP resources:
 
-	a)	An Instance Template
+	a. &ensp; An Instance Template
 	
-	b)	Specific IAM permissions
+	b. &ensp; Specific IAM permissions
 	
 
 ### Steps:
 
-1)	In the search bar, navigate to Compute Engine.
+1. &ensp; In the search bar, navigate to Compute Engine.
 
